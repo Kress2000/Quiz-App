@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>QUIZ APP</title>
+        <link rel="stylesheet" href="style.css" />
+      
+    </head>
+    <body>
+        <div id="container">
+            <h1>ENGLISH QUIZ</h1>
+            <div id="instructions">
+                
+                <button id="instrbtn"> Read instructions >></button><br>
+                <span id="bleefings">Read the following questions and fill the gaps below carefully! each question here takes <strong>Fourty seconds.</strong>
+                   <br> <em><strong>Note:</strong> Each question has its only one corresponding answer.</em>
+
+                   
+                </span>
+                <br> <button id="btn1">Start</button>
+            </div>
+            
+            <div id="boxQuestions">
+                <div id="timer">00</div>
+                <h2 id="question">Question Text</h2>
+                <ul id="list">
+                    <li>
+                        <input type="radio" id="a" name="answer" class="answers">
+                        <label for="a" id="aText">Question</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="b" name="answer" class="answers">
+                        <label for="b" id="bText">Question</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="c" name="answer" class="answers">
+                        <label for="c" id="cText">Question</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="d" name="answer" class="answers">
+                        <label for="d" id="dText">Question</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="e" name="answer" class="answers">
+                        <label for="e" id="eText">Question</label>
+                    </li>
+                
+                </ul>
+                <button id="btn2"> next</button>
+            </div>
+        </div>
+
+
+        <script src="script.js" ></script>
+    </body>
+</html>
